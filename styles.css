@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    
+
+    
+}
+
+.navlinks {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+    .navlinks li{
+        margin-left: 2em;
+    }
+
+    .navlinks li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        opacity: 0.85;
+        transition: 0.3s;
+    }
+
+    .navlinks li a:hover {
+        opacity: 1;
+    }
+
+
+#welcome-section {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
